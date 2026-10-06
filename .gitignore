@@ -1,0 +1,26 @@
+uploads
+.DS_Store
+.env
+node_modules/
+
+
+# Local credentials, dependencies, and generated files.
+.env
+.env.*
+*.env
+!.env.example
+credentials*.json
+*service-account*.json
+google.json
+*.pem
+*.key
+node_modules/
+build/
+dist/
+coverage/
+.next/
+.cache/
+uploads/
+.DS_Store
+._*
+.idea/
